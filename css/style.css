@@ -1,0 +1,77 @@
+#weeklyWrapper {
+    margin-bottom: 100px;
+    text-align: center;
+	width: 960px;
+}
+
+#weeklyList ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-table;
+	width: 13.71%;
+}
+
+#weeklyList li {
+	background: none;
+    border: none;
+    font-size: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 6px 5px 1px;
+    text-align: left;
+}
+
+#weeklyList li:hover {
+	background: #ddd;
+}
+
+#weeklyList li.listTitle {
+	background: #444;
+    border-right: solid 1px #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+#weeklyList li.listTitle:hover,
+#weeklyList li.listTitle:active {
+	cursor: default;
+    -webkit-transform: none;
+    transform: none;
+}
+
+#weeklyList .emptySpace {
+	background: #e00;
+    border: dashed 1px #777;
+    height: 10px;
+}
+
+#weeklyList li.addItem {
+    background: none;
+	display: none;
+    position: absolute;
+    top: 0;
+}
+
+#weeklyList ul:hover li.addItem {
+	display: block;
+}
+
+#weeklyList li.addItem input {
+	padding: 4px 0;
+    width: 100%;
+}
+
+#weeklyList li.addItem:active {
+	-webkit-transform: none;
+	transform: none;
+}
+
+#trash img {
+    height: 100px;
+	width: 100px;
+	margin: 80px;
+	margin-left: 400px;
+}
